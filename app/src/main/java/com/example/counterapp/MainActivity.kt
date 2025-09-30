@@ -15,9 +15,12 @@ class MainActivity : AppCompatActivity() {
         val  addOneButton = findViewById<Button>(R.id.addOne)
 
         score_text.text = 0.toString()
-
         addOneButton.setOnClickListener {
             score_text.text =  (score_text.text.toString().toInt() +1) .toString()
+
+
+
+
 
         }
     }
