@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/score_text"
+        android:textSize="35sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:ellipsize="start"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/addOne"
+        android:text="add"
+        android:layout_gravity="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:background="@color/cardview_shadow_start_color"
+        android:padding="25sp"
+        android:layout_margin="10dp"
+        />
+
+</LinearLayout>
